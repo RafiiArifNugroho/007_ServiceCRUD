@@ -29,3 +29,8 @@ app.get('/', (req, res) => {
         })
 })
 
+app.post('/biodata', (req, res) => {
+    const { id, nama, nim, kelas } = req.body
+
+
+
